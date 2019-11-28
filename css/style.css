@@ -14,6 +14,11 @@
   background-color: #FFC0CB;
 }
 
-.col-6 .container.rosa-scuro{
+/* .container.rosa-scuro [class*="col-"]{
+  border: 1px solid #FFFF;
+} */
+
+.debug .rosa-scuro [class*="col-"] {
   background-color: #F07F80;
+  border: 1px solid white;
 }

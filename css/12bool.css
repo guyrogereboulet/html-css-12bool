@@ -2,13 +2,19 @@
 /* Inizio Debug */
 
 .debug .container {
-  border: 1px solid black;
+  /* border: 1px solid black; */
+  height: 300px;
 }
 
 .debug .container [class*="col-"] {
   border: 1px solid black;
-  height: 300px;
+  height: 100%;
   float: left;
+  padding: 5px;
+}
+
+.debug [class*="col-"] .container {
+  height: 100%;
 }
 
 
