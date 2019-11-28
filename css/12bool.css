@@ -6,7 +6,7 @@
 }
 
 .debug .container [class*="col-"] {
-  border: 1px solid red;
+  border: 1px solid black;
   height: 300px;
   float: left;
 }
@@ -30,11 +30,6 @@
   display: table;
   clear: both;
 }
-
-/* [class*="col-"] {
-float: left;
-} */
-
 
 .col-1 {
   width:calc((100% / 12) * 1);

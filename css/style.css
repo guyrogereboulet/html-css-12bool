@@ -1,0 +1,19 @@
+[class*="col-"]{
+  position: relative;
+}
+
+.testo {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.rosa {
+  background-color: #FFC0CB;
+}
+
+.col-6 .container.rosa-scuro{
+  background-color: #F07F80;
+}
